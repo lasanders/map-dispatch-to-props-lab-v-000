@@ -26,7 +26,6 @@ export class RestaurantInput extends Component {
     this.props.dispatch({type: 'ADD_RESTAURANT', restaurant: this.state})
 }
     // add missing code
-  }
 
   render() {
     return(
